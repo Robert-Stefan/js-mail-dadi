@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+h1, h2, h3 {
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.full-section .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, 25%);
+    color: #bed7d6;
+    text-align: center;
+}
+
+.full-section {
+    position: relative;
+    background-image: url('./img/sfondo.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

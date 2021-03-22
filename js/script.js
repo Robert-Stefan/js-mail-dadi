@@ -43,7 +43,7 @@ console.log('Questo è il numero del PC : ' + computer);
 
 //ISTRUZIONI
 if ( utente > computer ) {
-    document.getElementById('dadi').innerHTML = 'Hai vinto contro il computer! Complimenti!' + utente;
+    document.getElementById('dadi').innerHTML = 'Hai vinto contro il computer! Complimenti!';
     console.log('Hai vinto contro il computer! Complimenti!');
 } else if ( utente == computer ) { 
     document.getElementById('dadi').innerHTML = 'Siete pari!';
